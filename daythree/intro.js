@@ -1,9 +1,8 @@
 function display()
 {
-    const x=document.getElementById("name").value;
-    const y=x.length;
+    var x=document.getElementById('name').value;
+    var y=x.length();
 
-
-   document.getElementById("demo").innerHTML="Your score is: "+y;
+   document.getElementById('n1').innerHTML="Your score is: "+y;
     
 }
